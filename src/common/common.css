@@ -1,0 +1,27 @@
+/* @import "../assets/_minix.scss";
+@import "../assets/common.scss"; */
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+html,body,#app{
+    width: 100%;
+    height: 100%;
+}
+.clearposition{
+    margin-top: 44px;
+}
+.validate-success{
+    border-bottom: 1px solid rgb(137, 219, 13)!important;
+}
+.validate-error{
+    border-bottom: 1px solid rgb(246, 24, 24)!important;
+}
+.validate-span{
+    font-size: 10px;
+    color: red;
+    margin: 10px 10%;
+    height: auto;
+    width: 80%;
+}
